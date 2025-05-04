@@ -28,15 +28,15 @@ Run from terminal with customizable CLI options:
 --------------------------------------------------
 🛠️ OPTIONS
 --------------------------------------------------
---input               Path to input Excel file (default: links.xlsx)
---output              Path to output Excel file (default: scraped_app_data.xlsx)
---start               Start row index (1-based, inclusive)
---end                 End row index (1-based, inclusive). Omit to use all.
---processes           Number of parallel Chrome instances (default: 1)
---retry               Number of retry attempts for failed links (default: 0)
---save-failed         Save failed links to a file ("failed_links.xlsx")
---formatting-off      Disable Excel column formatting (default: False)
---headless-off        Disable headless mode (for debugging)
+- --input&emsp;**Path to input Excel file (default: links.xlsx)**
+- --output&emsp;**Path to output Excel file (default: scraped_app_data.xlsx)**
+- --start&emsp;**Start row index (1-based, inclusive)**
+- --end&emsp;**End row index (1-based, inclusive). Omit to use all.**
+- --processes&emsp;**Number of parallel Chrome instances (default: 1)**
+- --retry&emsp;**Number of retry attempts for failed links (default: 0)**
+- --save-failed&emsp;**Save failed links to a file ("failed_links.xlsx")**
+- --formatting-off&emsp;**Disable Excel column formatting (default: False)**
+- --headless-off&emsp;**Disable headless mode (for debugging)**
 
 --------------------------------------------------
 📂 INPUT FORMAT
@@ -80,5 +80,5 @@ Install with:
 --------------------------------------------------
 👨‍💻 AUTHOR & LICENSE
 --------------------------------------------------
-Developed by [Your Name]
+Developed by Marvin Bustillos 
 MIT License
