@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter and editor settings
+*.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+env/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Output files
+*.xlsx
+*.csv
+
+# Logs
+*.log
+
+# Hidden system files
+*.swp
+
+# Ignore config for personal use
+config.ini
